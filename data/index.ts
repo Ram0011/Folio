@@ -88,7 +88,7 @@ export const projects = [
         id: 2,
         title: "Blog App",
         des: "Implemented a blog platform with React, Node.js, and MongoDB, enabling seamless publishing and management.",
-        img: "/blog.png",
+        img: "/blog1.png",
         iconLists: [
             "/re.svg",
             "/node1.png",
