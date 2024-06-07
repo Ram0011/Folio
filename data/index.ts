@@ -72,6 +72,20 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "Shop (Ecommerce-application)",
+        des: "Developed a fully responsive e-commerce application utilizing Bootstrap components and styling for a seamless user experience across all devices.",
+        img: "/shop-app.png",
+        iconLists: [
+            "/re.svg",
+            "/express1.svg",
+            "/node1.png",
+            "/bootstrap-logo.png",
+            "/mongodb.svg",
+        ],
+        link: "https://ram-ecommerce.vercel.app",
+    },
+    {
+        id: 2,
         title: "Airbnb",
         des: "Developed a sleek, responsive React.js frontend with Tailwind CSS, enabling seamless multi-place booking and posting with image and amenity info.",
         img: "/airbnb.png",
@@ -85,7 +99,7 @@ export const projects = [
         link: "https://airbnb-two-ruddy.vercel.app",
     },
     {
-        id: 2,
+        id: 3,
         title: "Blog App",
         des: "Implemented a blog platform with React, Node.js, and MongoDB, enabling seamless publishing and management.",
         img: "/blog1.png",
@@ -99,7 +113,7 @@ export const projects = [
         link: "https://my-blog-ram.vercel.app",
     },
     {
-        id: 3,
+        id: 4,
         title: "MarketPlace App (React-Native)",
         des: "Built a cross-platform e-commerce app with React Native, Firebase, and Expo-Clerk for buying and selling items.",
         img: "/market.png",
@@ -111,20 +125,6 @@ export const projects = [
             "/expo.svg",
         ],
         link: "https://github.com/Ram0011/MarketApp-native",
-    },
-    {
-        id: 4,
-        title: "OYO",
-        des: "Developed Next.js app with Node.js, MongoDB, JWT, and Razorpay, mimicking OYO's functionalities with robust features.",
-        img: "/oyo.png",
-        iconLists: [
-            "/next.svg",
-            "/tail.svg",
-            "/node1.png",
-            "/jwt.svg",
-            "/mongodb.svg",
-        ],
-        link: "https://github.com/Ram0011/OYO",
     },
 ];
 

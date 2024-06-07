@@ -50,7 +50,7 @@ const Hero = () => {
                             React Native.
                         </p>
                         <Link
-                            href={"https://ram-res.tiiny.site/"}
+                            href={"https://ramprakash-resume.tiiny.site/"}
                             target="_blank"
                         >
                             <MagicButton

@@ -12,7 +12,7 @@ const RecentProjects = () => {
                 Selection of{" "}
                 <span className="text-purple">Recent Projects</span>
             </h1>
-            <div className="flex items-center justify-center pt-5 text-xs text-gray-500 min-w-full sm:px-10 text-center">
+            <div className="flex items-center justify-center pt-5 text-xs text-gray-400 min-w-full sm:px-10 text-center">
                 <p>
                     *Project&apos;s backend hosted on Free low bandwidth server
                     loading application may take time upto 50 sec.
