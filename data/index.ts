@@ -96,7 +96,7 @@ export const projects = [
             "/express1.svg",
             "/mongodb.svg",
         ],
-        link: "https://airbnb-two-ruddy.vercel.app",
+        link: "https://duplicate-airbnb.vercel.app",
     },
     {
         id: 3,
