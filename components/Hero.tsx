@@ -40,7 +40,7 @@ const Hero = () => {
                             I&apos;m Ramprakash Ramtekkar
                         </h2>
 
-                        <p className="text-center text-base md:text-lg max-w-[90%] leading-[1.7rem]">
+                        <p className="text-center text-base md:text-xl max-w-[90%] leading-[1.7rem] font-extralight">
                             I am a{" "}
                             <span className="text-purple">
                                 Full Stack Developer,
