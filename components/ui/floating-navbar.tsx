@@ -30,7 +30,7 @@ export const FloatingNav = ({
             let direction = current! - scrollYProgress.getPrevious()!;
 
             if (scrollYProgress.get() < 0.05) {
-                setVisible(false);
+                setVisible(true);
             } else {
                 if (direction < 0) {
                     setVisible(true);
@@ -56,7 +56,7 @@ export const FloatingNav = ({
                     duration: 0.2,
                 }}
                 className={cn(
-                    "flex max-w-fit fixed top-10 inset-x-0 mx-auto border rounded-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-10 py-5  items-center justify-center space-x-4 border-white/[0.2] bg-gray-900 opacity-20 ",
+                    "flex sm:max-w-[90%] lg:max-w-[50%]  fixed top-10 inset-x-0 mx-auto border rounded-full shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-10 py-5  items-center justify-center space-x-4 border-white/[0.2] bg-gradient-to-r from-zinc-900 via-zinc-900 to-gray-900 opacity-20 ",
                     className
                 )}
             >
@@ -65,11 +65,13 @@ export const FloatingNav = ({
                         key={`link=${idx}`}
                         href={navItem.link}
                         className={cn(
-                            "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 "
+                            "relative dark:text-neutral-50 items-center flex sm:space-x-1 md:space-x-3 lg:space-x-6  text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 font-thin"
                         )}
                     >
                         <span className="block sm:hidden">{navItem.icon}</span>
-                        <span className="sm:block text-sm">{navItem.name}</span>
+                        <span className="sm:block sm:text-sm md:text-lg">
+                            {navItem.name}
+                        </span>
                     </Link>
                 ))}
             </motion.div>
